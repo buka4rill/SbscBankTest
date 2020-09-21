@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using SbscBankTest.Models;
 
 namespace SbscBankTest.Data
 {
@@ -11,6 +12,10 @@ namespace SbscBankTest.Data
         }
 
         // Tables
+        public DbSet<StaffRecord> StaffRecords { get; set; }
 
+        public DbSet<SalaryRecord> SalaryRecords { get; set; }
+
+        public DbSet<TransferRecord> TransferRecords { get; set; }
     }
 }
