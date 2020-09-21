@@ -3,10 +3,10 @@ using SbscBankTest.Models;
 
 namespace SbscBankTest.Data
 {
-    public class RecordManagementDbContex : DbContext
+    public class RecordManagementDbContext : DbContext
     {
         // Constructor
-        public RecordManagementDbContex(DbContextOptions<RecruitmentDbContext> options)
+        public RecordManagementDbContext(DbContextOptions<RecruitmentDbContext> options)
         {
 
         }
